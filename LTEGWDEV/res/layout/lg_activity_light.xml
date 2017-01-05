@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/layer_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/txt_lg_zwave_manufacture_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_light_text_view"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <Spinner
+                    android:id="@+id/sp_lg_light_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/btn_lg_light_on"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:text="@string/title_light_on" />
+
+                        <Button
+                            android:id="@+id/btn_lg_light_off"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:text="@string/title_light_off" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/btn_lg_alert_on"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:text="@string/title_alert_on" />
+
+                        <Button
+                            android:id="@+id/btn_lg_alert_off"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:text="@string/title_alert_off" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/btn_lg_light_alert_on"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:text="@string/title_light_alert_on" />
+
+                        <Button
+                            android:id="@+id/btn_lg_light_alert_off"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/button"
+                            android:text="@string/title_light_alert_off" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/layer_bg"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/btn_lg_all_light_on"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button2"
+                        android:text="@string/title_all_light_on" />
+
+                    <Button
+                        android:id="@+id/btn_lg_all_light_off"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button2"
+                        android:text="@string/title_all_light_off" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/btn_lg_all_alert_on"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button2"
+                        android:text="@string/title_all_alert_on" />
+
+                    <Button
+                        android:id="@+id/btn_lg_all_alert_off"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button2"
+                        android:text="@string/title_all_alert_off" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/btn_lg_all_light_alert_on"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button2"
+                        android:text="@string/title_all_light_alert_on" />
+
+                    <Button
+                        android:id="@+id/btn_lg_all_light_alert_off"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button2"
+                        android:text="@string/title_all_light_alert_off" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

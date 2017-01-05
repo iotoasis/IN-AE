@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="libs/aeLibrary.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/com.fasterxml.jackson.annotations.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/com.fasterxml.jackson.core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/com.fasterxml.jackson.databind.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/json-20160810.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="Android/Sdk/platforms/android-23/optional"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

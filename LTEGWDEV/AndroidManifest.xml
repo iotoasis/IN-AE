@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.modacom.iot.ltegwdev"
+    android:versionCode="1"
+    android:versionName="1.0.5" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name=".sg100.LGDMActivity"
+            android:label="@string/title_activity_md"
+            android:windowSoftInputMode="stateAlwaysHidden"  >
+        </activity>
+        <activity
+            android:name=".sg100.LGZwaveActivity"
+            android:label="@string/title_activity_zwave" >
+        </activity>
+        <activity
+            android:name=".sg101.LGLightActivity"
+            android:label="@string/title_activity_light" >
+        </activity>
+        <activity
+            android:name=".sg100.LGZigBeeActivity"
+            android:label="@string/title_activity_zig_bee" >
+        </activity>
+        <activity
+            android:name=".sg100.LGMainActivity"
+            android:label="@string/title_activity_lg_main" >
+        </activity>
+        <activity
+            android:name=".sg101.LGBLEActivity"
+            android:label="@string/title_activity_lgble" >
+        </activity>
+        <activity
+            android:name=".eureka.EurekaMainActivity"
+            android:label="@string/title_activity_international_main" >
+        </activity>
+        <activity
+            android:name=".eureka.EurekaAllJoynActivity"
+            android:label="@string/title_activity_international_all_joyn" >
+        </activity>
+        <activity
+            android:name=".eureka.EurekaBLEActivity"
+            android:label="@string/title_activity_international_ble" >
+        </activity>
+        <activity
+            android:name=".eureka.EurekaZWaveActivity"
+            android:label="@string/title_activity_international_zwave" >
+        </activity>
+
+        <service android:name=".utils.BleService" >
+        </service>
+
+        <activity
+            android:name=".sg101.LG101MainActivity"
+            android:label="@string/title_activity_lg101_main" >
+        </activity>
+        <activity
+            android:name="kr.co.modacom.iot.ltegwdev.sg101.LG101DMActivity"
+            android:label="@string/title_activity_lg101_dm"
+            android:windowSoftInputMode="stateAlwaysHidden"  >
+        </activity>
+    </application>
+
+</manifest>

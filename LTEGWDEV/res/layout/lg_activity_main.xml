@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center" >
+
+            <Button
+                android:id="@+id/btn_lg_main_zwave"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/title_zwave"
+                android:background="@drawable/button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_lg_main_md"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/title_md"
+                android:background="@drawable/button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

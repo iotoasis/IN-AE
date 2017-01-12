@@ -1,7 +1,7 @@
 <article class="markdown-body entry-content" itemprop="text">
   <p>
-    <a href="https://raw.githubusercontent.com/iotoasis/SO/master/logo_oasis_m.png" target="_blank">
-      <img src="https://raw.githubusercontent.com/iotoasis/SO/master/logo_oasis_m.png" alt="Logo" style="max-width:100%;">
+    <a href="https://github.com/iotoasis/SO/blob/master/logo_oasis_m.png" target="_blank">
+      <img src="https://github.com/iotoasis/SO/blob/master/logo_oasis_m.png" alt="Logo" style="max-width:100%;">
      </a>
   </p>
 
